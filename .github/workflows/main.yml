@@ -11,6 +11,9 @@ on:
 jobs:
    build_and_test:
       runs-on: ubuntu-latest
+   permissions:
+      contents: write # Autoriser l'action à modifier le contenu du dépôt (pousser vers gh-pages)
+      pages: write # Autoriser l'action à déployer sur GitHub Pages
 
       steps:
          - name: Checkout code
