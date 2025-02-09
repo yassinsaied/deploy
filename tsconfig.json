@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"typeRoots": ["node_modules/@types", "./types"],
+		"types": ["jest", "node"]
+	}
+}
